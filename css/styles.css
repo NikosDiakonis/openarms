@@ -12530,6 +12530,11 @@ body {
     font-size: 20px;
   }
 }
+@media (max-width: 400px) {
+  .tooltip {
+    font-size: 15px;
+  }
+}
 
 /* ============== CONTACT INSIDE CARD END ==================== */
 
