@@ -12650,9 +12650,8 @@ body {
 
 @media (max-width: 768px) {
   .custom-carousel-img {
-    height: 200px;
-    /* ή οτιδήποτε άλλο ύψος που θεωρείτε κατάλληλο */
-    width: auto;
+    height: 300px;
+    width: 100%;
     object-fit: cover;
   }
 }
