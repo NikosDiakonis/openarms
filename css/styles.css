@@ -12648,6 +12648,11 @@ body {
   border-color: rgba(233, 40, 40, 0.7);
 }
 
-.custom-carousel-img {
-  object-fit: cover;
+@media (max-width: 768px) {
+  .custom-carousel-img {
+    height: 200px;
+    /* ή οτιδήποτε άλλο ύψος που θεωρείτε κατάλληλο */
+    width: auto;
+    object-fit: cover;
+  }
 }
