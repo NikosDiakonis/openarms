@@ -12530,6 +12530,7 @@ body {
     font-size: 20px;
   }
 }
+
 @media (max-width: 400px) {
   .tooltip {
     font-size: 15px;
@@ -12645,4 +12646,8 @@ body {
 .donation-btn-white-new:hover {
   background-color: rgba(233, 40, 40, 0.7);
   border-color: rgba(233, 40, 40, 0.7);
+}
+
+.custom-carousel-img {
+  object-fit: cover;
 }
