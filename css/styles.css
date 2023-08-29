@@ -12648,6 +12648,9 @@ body {
   border-color: rgba(233, 40, 40, 0.7);
 }
 
+/* ============== DONATE END ==================== */
+
+
 /* 
    Adjustments for carousel images on mobile screens. 
    Ensures images are full width and have a consistent height.
@@ -12657,5 +12660,12 @@ body {
     height: 300px;
     width: 100%;
     object-fit: cover;
+  }
+}
+
+/* Adding additional margin to the bottom of the card title for smaller screens to improve spacing between the title and the text */
+@media (max-width: 768px) {
+  .card-title {
+    margin-bottom: 20px;
   }
 }
