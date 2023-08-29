@@ -12648,6 +12648,10 @@ body {
   border-color: rgba(233, 40, 40, 0.7);
 }
 
+/* 
+   Adjustments for carousel images on mobile screens. 
+   Ensures images are full width and have a consistent height.
+*/
 @media (max-width: 768px) {
   .custom-carousel-img {
     height: 300px;
