@@ -12666,6 +12666,6 @@ body {
 /* Adding additional margin to the bottom of the card title for smaller screens to improve spacing between the title and the text */
 @media (max-width: 768px) {
   .card-title {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
