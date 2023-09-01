@@ -1,7 +1,7 @@
 # openarms
 🔗 Live Site: [Open Arms](https://nikosdiakonis.github.io/openarms/)
 
-This project was developed for a web development e-learning program at the University of Athens. The assignment required the use of a reference site, for which I selected [watershed.ngo](https://watershed.ngo). I aimed to match its aesthetics while fulfilling the assignment's criteria.
+This project was developed for a web development e-learning program at the National and Kapodistrian Univercity of Athens. The assignment required the use of a reference site, for which I selected [watershed.ngo](https://watershed.ngo). I aimed to match its aesthetics while fulfilling the assignment's criteria.
 
 Features:
 1. Common Elements: Consistent Header and Footer across all pages. 
