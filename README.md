@@ -1,7 +1,7 @@
 # openarms
 🔗 **[Live Site: Open Arms](https://nikosdiakonis.github.io/openarms/)**
 
-This project was developed as part of a web development e-learning program at the National and Kapodistrian University of Athens. The technologies employed include HyperText Markup Language (HTML), Cascading Style Sheets (CSS), JavaScript, and Bootstrap. TThe primary aim of this project was to familiarize ourselves with Bootstrap in order to craft responsive web pages.
+This project was developed as part of a web development e-learning program at the National and Kapodistrian University of Athens. The technologies employed include HyperText Markup Language (HTML), Cascading Style Sheets (CSS), JavaScript, and Bootstrap. The primary aim of this project was to familiarize ourselves with Bootstrap in order to craft responsive web pages.
 
 ### Inspiration
 
