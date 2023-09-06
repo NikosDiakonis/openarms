@@ -12677,3 +12677,11 @@ Card Layout Adjustments for Medium Screens
     /* Για να κεντραριστεί το κείμενο με βάση το νέο πλάτος */
   }
 }
+
+/* ======== END Adjustments for Medium Screens ========  */
+
+
+/* ======== Carousel adjustments ========  */
+.new-margin {
+  margin-top: 100px;
+}
