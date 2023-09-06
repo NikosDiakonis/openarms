@@ -5333,6 +5333,14 @@ input[type="button"].btn-block {
   margin-bottom: 0;
 }
 
+.card-text {
+  font-size: 25px;
+}
+
+.card-title {
+  margin-bottom: 35px;
+}
+
 .card-link:hover {
   text-decoration: none;
 }
