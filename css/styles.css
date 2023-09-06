@@ -12664,7 +12664,11 @@ body {
 
 /* DONATION ENDS */
 
-/* Για οθόνες μεταξύ 768px και 992px */
+/* 
+==========================
+Card Layout Adjustments for Medium Screens
+==========================
+*/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .card-text {
     width: 80%;
