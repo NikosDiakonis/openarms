@@ -12661,3 +12661,15 @@ body {
   background-color: rgba(233, 40, 40, 0.7);
   border-color: rgba(233, 40, 40, 0.7);
 }
+
+/* DONATION ENDS */
+
+/* Για οθόνες μεταξύ 768px και 992px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-text {
+    width: 80%;
+
+    margin: 0 auto;
+    /* Για να κεντραριστεί το κείμενο με βάση το νέο πλάτος */
+  }
+}
