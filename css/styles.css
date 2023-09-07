@@ -12119,6 +12119,35 @@ body {
   display: inline-block;
 }
 
+@media (max-width: 991px) {
+  #navbar-logo {
+    width: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  #navbar-logo {
+    width: 50px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    height: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .nav-item {
+    margin-right: 20px;
+  }
+}
+
+
+
+
+
+
 /* ========================== NAVBAR ENDS =========================== */
 
 
@@ -12690,6 +12719,3 @@ Card Layout Adjustments for Medium Screens
 
 
 /* ======== Carousel adjustments ========  */
-.new-margin {
-  margin-top: 100px;
-}
