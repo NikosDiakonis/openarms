@@ -4871,6 +4871,7 @@ input[type="button"].btn-block {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-top: 2%;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4879,6 +4880,7 @@ input[type="button"].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+
 }
 
 .navbar-nav .dropdown-menu {
