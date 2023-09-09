@@ -12032,34 +12032,44 @@ body {
 
 #navbar-logo {
   width: 90px;
-
   height: auto;
   max-width: 100%;
 }
 
-
 .nav-link {
   transition: all 0.2s;
   position: relative;
-  padding-bottom: 30px;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  /* Κεντράρει το περιεχόμενο κατακόρυφα */
+  margin-top: -10px;
+  /* Μετακινεί τους υπερσυνδέσμους λίγο πιο πάνω */
 }
 
-.nav-link:not(.no-underline):hover::before {
+.nav-link::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 2px;
-  bottom: 0;
+  bottom: -10px;
+  /* Τοποθετεί το underline στην τομή της navbar */
   left: 0;
   background-color: rgb(193, 0, 0);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.2s ease;
+  z-index: 1;
+  /* Προσθήκη z-index για να είναι πάνω από το περιεχόμενο */
+}
 
+.nav-link:hover::before {
+  transform: scaleX(1);
 }
 
 .navbar {
   transition: 0.5s;
   position: static;
-  /* Default position for small screens */
 }
 
 .navbar.scrolled {
@@ -12067,8 +12077,6 @@ body {
 }
 
 @media (min-width: 992px) {
-
-  /* Apply only for large screens */
   .navbar {
     position: fixed;
     top: 0;
@@ -12079,8 +12087,6 @@ body {
     height: 50px;
   }
 }
-
-
 
 .donate-link {
   background-color: rgb(193, 0, 0);
@@ -12139,9 +12145,10 @@ body {
   }
 }
 
-@media (max-width: 991.98px) {
-  .nav-item {
-    margin-right: 20px;
+/* Αφαιρεί το hover effect για το στοιχείο "Donate" όταν το viewport είναι μεγαλύτερο από 991px */
+@media (min-width: 992px) {
+  .navbar-nav .nav-link.donate-link:hover::before {
+    display: none;
   }
 }
 
